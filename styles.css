@@ -168,9 +168,13 @@ html {
   }
   
   .about-text p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     color: rgb(129, 0, 221);
+  }
+  
+  .about-link{
+    float: right;
   }
 /* Contact Page */
   label {
