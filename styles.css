@@ -72,14 +72,20 @@ html {
   }
   /* CSS for portfolio grid */
 
+.project-layout {
+  align-items: center;
+  
+} 
+  
 .project {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 20 px;
+    padding: 20px;
     background-color: #efd1e4;
-    border: 1px solid #ccc;
-    border-radius: 5 px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: auto;
   
     /* Debug border */
     /* border: 2px solid blue; */
@@ -93,13 +99,19 @@ html {
   }
   
   .project-image {
-    max-width: 300px;
+    max-width: 40%;
     border-radius: 3px;
-    margin: 20 px;
+    margin: 20px;
+    border: 2px solid black;
   
     /* Debug border */
     /* border: 2px solid black; */
   }
+
+  .project-image img {
+    max-width: 100%;
+  }
+
   
   .project-details {
     display: flex;
