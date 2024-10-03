@@ -97,7 +97,11 @@ html {
     /* Debug border */
     /* border: 2px solid red; */
   }
-  
+  .project:hover{
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 100%;
+  }
   .project-image {
     max-width: 40%;
     border-radius: 3px;
